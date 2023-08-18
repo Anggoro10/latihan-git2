@@ -1,0 +1,373 @@
+{
+  "users": [
+    {
+      "nama_lengkap": "anggoro",
+      "email": "jati@gmail.com",
+      "password": "kebon",
+      "saldo": 2000,
+      "point": 5,
+      "id": 1
+    },
+    {
+      "nama_lengkap": "raka",
+      "email": "raka@gmail.com",
+      "password": "kebon",
+      "saldo": 1000000,
+      "point": 103,
+      "id": 3
+    },
+    {
+      "nama_lengkap": "rafa",
+      "email": "rafa@gmail.com",
+      "password": "kebon",
+      "saldo": 55000,
+      "point": 5,
+      "id": 5
+    },
+    {
+      "nama_lengkap": "haekal",
+      "email": "haekal@gmail.com",
+      "password": "kebon",
+      "saldo": 100000,
+      "point": 0,
+      "id": 6
+    },
+    {
+      "nama_lengkap": "raka",
+      "email": "raka2@gmail.com",
+      "password": "kebon",
+      "saldo": 75000,
+      "point": 3,
+      "id": 7
+    },
+    {
+      "nama_lengkap": "carakawijaya",
+      "email": "carakawijaya@gmail.com",
+      "password": "1234567",
+      "saldo": 100000,
+      "point": 15,
+      "id": 8
+    },
+    {
+      "nama_lengkap": "kebonwijaya",
+      "email": "kebonku@gmail.com",
+      "password": "kebonku",
+      "saldo": 68000,
+      "point": -2,
+      "id": 9
+    }
+  ],
+  "events": [
+    {
+      "nama_event": "konser Musik Tiara Andini",
+      "kategori_event": "seni",
+      "date": "2023-08-17",
+      "time": "7:00 PM",
+      "kota": "bogor",
+      "detail_lokasi": "Kebun Raya Bogor",
+      "jenis_event": "offline",
+      "biaya": 10000,
+      "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCeIcMx-LnLwmvub1B6cU9SbGui7IUM5QWA&usqp=CAU",
+      "max_peserta": 11,
+      "deskripsi_detail": "Naruto juga mendapatkan jajak pendapat popularitas pertamanya di seluruh dunia, berjudul NARUTOP99, untuk menentukan 99 karakter paling populer dari franchise tersebut, sebagai bagian dari peringatan 20 tahun anime tersebut.",
+      "deskripsi_singkat": "Ini Merupakan Konser Tiara Andini Yang ke 1 tahun anniv",
+      "discount": 10,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "nama_event": "Festival Wayang",
+      "kategori_event": "seni",
+      "date": "2023-08-24",
+      "time": "10:00 AM",
+      "biaya": 5000,
+      "image_link": "https://marketplace.canva.com/EAFolhXCrE4/1/0/1600w/canva-coklat-dan-putih-bergaya-ilustrasi-tradisional-acara-pentas-seni-budaya-ludruk-banner-6ZewD13Xh5g.jpg",
+      "max_peserta": -1,
+      "deskripsi_singkat": "Mengembangkan kesenian asal Indonesia dengan menunjukkan wayang",
+      "deskripsi_detail": "Naruto juga mendapatkan jajak pendapat popularitas pertamanya di seluruh dunia, berjudul NARUTOP99, untuk menentukan 99 karakter paling populer dari franchise tersebut, sebagai bagian dari peringatan 20 tahun anime tersebut.",
+      "discount": "5",
+      "detail_lokasi": "Central Park",
+      "kota": "jakarta",
+      "jenis_event": "offline",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "nama_event": "Fun Run 5K",
+      "date": "2023-08-23",
+      "time": "7:00 AM",
+      "biaya": "10000",
+      "image_link": "https://cdn.sulselsatu.com/imageresize/assets/media/upload/2023/01/IMG-20230128-WA0021.jpg&width=1200&height=675",
+      "max_peserta": 2,
+      "deskripsi_singkat": "Lari dapat menyenangkan, mari bersama-sama lari bareng",
+      "deskripsi_detail": "Dalam rangka memperingati 54 tahun berdirinya UKJGS, kami mempersembahkan Pagelaran Wayang 4.0 berupa penampilan wayang kulit, wayang wong, tari, dan karawitan yang bertajuk",
+      "discount": "10",
+      "detail_lokasi": "Bundaran HI",
+      "kota": "jakarta",
+      "jenis_event": "offline",
+      "kategori_event": "Sport",
+      "userId": "5",
+      "id": 4
+    },
+    {
+      "nama_event": "Konser Musik Coldplay",
+      "date": "2023-08-26",
+      "time": "6:30 PM",
+      "biaya": 0,
+      "image_link": "https://awsimages.detik.net.id/api/wm/2023/05/10/konser-coldplay-2023-music-of-the-spheres-world-tour_169.jpeg?wid=60&w=650&v=1&t=jpeg",
+      "max_peserta": 95,
+      "deskripsi_singkat": "Konser musik band yang berasal dari britania raya. Coldplay",
+      "deskripsi_detail": "",
+      "discount": 0,
+      "detail_lokasi": "Stadion Glora Bung Karno",
+      "kota": "jakarta",
+      "jenis_event": "offline",
+      "kategori_event": "seni",
+      "userId": "3",
+      "id": 5
+    },
+    {
+      "nama_event": "belajar ngoding",
+      "date": "2023-08-28",
+      "time": "7:00 PM",
+      "biaya": 0,
+      "image_link": "https://www.gamelab.id/uploads/modules/NEWS/2019-12-12%20istilah-dunia-percodingan/4.png?1576149601723",
+      "max_peserta": 9,
+      "deskripsi_singkat": "ngoding bareng react js membuat mini project",
+      "deskripsi_detail": "Istilah dalam dunia coding\nJika kamu ingin mulai mempelajari coding atau pemrograman, beberapa istilah harus kamu ketahui terlebih dahulu, untuk mempermudah saat sudah melakukan coding nantinya. Dari beberapa istilah ini mungkin sebgaian sudah tidak asing lagi bagi kalian yang sudah sering menggunakan internet atau sering berselancar di mesin pencari, untuk mempersingkat waktu mari kita mulai dari istilah yang pertama.\n\n1. Agile atau Agile Software Development\nAgile adalah sebuah metode development software baik itu website, web application, ataupun mobile application yang fokus untuk menghasilkan secara terus-menerus sebuah software berkualitas tinggi dengan konsisten sehingga dapat meminimalisir biaya proyek dan meningkatkan nilai jual bisnis.\n\n2. AJAX (Asynchronous JavaScript and XML)\nSebuah teknik yang dapat dimungkinkan untuk membuat sebuah aplikasi website dalam interaktif. Jika kita lihat mulai dari pemanfaatan AJAX pada aplikasi website dimana ini dapat berkomunikasi dengan server pada latar belakang. Dengan begitu ini tidak akan mempengaruhi sebuah halaman web secara keseluruhannya.",
+      "discount": 0,
+      "email_pembuat_acara": "6",
+      "detail_lokasi": "rumah haekal",
+      "kota": "bogor",
+      "jenis_event": "ofline",
+      "kategori_event": "edukasi",
+      "userId": "6",
+      "id": 6
+    },
+    {
+      "nama_event": "Komedi Selalu Dinanti",
+      "date": "2023-05-17",
+      "time": "3.00 PM",
+      "biaya": "2000",
+      "image_link": "data:image/jpeg;base64,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",
+      "max_peserta": "4",
+      "deskripsi_singkat": "Tertawa lagi ah...ah...ah di Komika",
+      "deskripsi_detail": "rafa detail",
+      "discount": 0,
+      "email_pembuat_acara": "1",
+      "detail_lokasi": "Mall summarecon Bekasi",
+      "kota": "bekasi",
+      "jenis_event": "online",
+      "kategori_event": "komedi",
+      "userId": "1",
+      "id": 7
+    },
+    {
+      "nama_event": "purwadhika",
+      "date": "2023-08-29",
+      "time": "09:00",
+      "biaya": 0,
+      "image_link": "https://api.purwadhikax.com/promos/promo-banner-mobile-1683801322208.jpeg",
+      "max_peserta": "50",
+      "deskripsi_singkat": "Purwadhika adalah bootcamp dengan job connector dan menghasilkan generasi muda digital",
+      "deskripsi_detail": "Melalui program Job Connector Bootcamp, kami ingin membuka kesempatan untuk siapa saja yang memulai karir di industri digital. Oleh karena itu, untuk mengikuti program ini, peserta program tidak harus memiliki background marketing ataupun digital marketing sebelumnya.\n\nLulusan program Job Connector Bootcamp akan mendapatkan fasilitas job connection, namun untuk lebih berpeluang mendapatkan pekerjaan peserta program idealnya memiliki kriteria sebagai berikut:\n\nUsia kurang atau sama dengan 30 tahun;\nLulusan S1/sederajat atau memiliki pengalaman kerja minimal 1 tahun.\nNotes tambahan: Untuk praktek digital ads, peserta program akan dikenakan biaya tambahan maksimal sebesar Rp200.000.",
+      "discount": "10",
+      "email_pembuat_acara": "1",
+      "detail_lokasi": "GOP 9",
+      "kota": "tangerang",
+      "jenis_event": "online",
+      "kategori_event": "edukasi",
+      "userId": "1",
+      "id": 8
+    }
+  ],
+  "cetak_tiket": [
+    {
+      "id": 1,
+      "userId": 1,
+      "eventId": 1,
+      "kode_referal": "123"
+    },
+    {
+      "userId": 3,
+      "eventId": 1,
+      "kode_referal": "802218",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "eventId": 3,
+      "kode_referal": "549689",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "eventId": 4,
+      "kode_referal": "769593",
+      "id": 6
+    },
+    {
+      "userId": "5",
+      "eventId": 4,
+      "kode_referal": "208964",
+      "id": 7
+    },
+    {
+      "userId": "5",
+      "eventId": 4,
+      "kode_referal": "660544",
+      "id": 8
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "367502",
+      "id": 9
+    },
+    {
+      "userId": "1",
+      "eventId": 4,
+      "kode_referal": "495621",
+      "id": 10
+    },
+    {
+      "userId": "3",
+      "eventId": 3,
+      "kode_referal": "147321",
+      "id": 11
+    },
+    {
+      "userId": "7",
+      "eventId": 3,
+      "kode_referal": "001512",
+      "id": 12
+    },
+    {
+      "userId": "7",
+      "eventId": 1,
+      "kode_referal": "453361",
+      "id": 13
+    },
+    {
+      "userId": "7",
+      "eventId": 4,
+      "kode_referal": "214053",
+      "id": 14
+    },
+    {
+      "userId": "1",
+      "eventId": 4,
+      "kode_referal": "657115",
+      "id": 15
+    },
+    {
+      "userId": "1",
+      "eventId": 6,
+      "kode_referal": "127609",
+      "id": 16
+    },
+    {
+      "userId": "1",
+      "eventId": 3,
+      "kode_referal": "004214",
+      "id": 17
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "000625",
+      "id": 18
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "432582",
+      "id": 19
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "962124",
+      "id": 20
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "091524",
+      "id": 21
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "200129",
+      "id": 22
+    },
+    {
+      "userId": "1",
+      "eventId": 1,
+      "kode_referal": "677181",
+      "id": 23
+    },
+    {
+      "userId": "1",
+      "eventId": 3,
+      "kode_referal": "958297",
+      "id": 24
+    },
+    {
+      "userId": "1",
+      "eventId": 3,
+      "kode_referal": "560205",
+      "id": 25
+    },
+    {
+      "userId": "1",
+      "eventId": 5,
+      "kode_referal": "627362",
+      "id": 26
+    },
+    {
+      "userId": "3",
+      "eventId": 5,
+      "kode_referal": "053441",
+      "id": 27
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "userId": 1,
+      "comment": "lorem ipsum bla bla bla",
+      "rate": 4
+    },
+    {
+      "eventId": "4",
+      "userId": "1",
+      "comment": "keren banget pokoknya deh",
+      "rate": 0,
+      "id": 2
+    },
+    {
+      "eventId": "4",
+      "userId": "1",
+      "comment": "keren banget pokoknya deh hehehe",
+      "rate": 3,
+      "id": 3
+    },
+    {
+      "eventId": "1",
+      "userId": "1",
+      "comment": "mainnya hebat",
+      "rate": 0,
+      "id": 4
+    },
+    {
+      "eventId": "5",
+      "userId": "3",
+      "comment": "oke",
+      "rate": 0,
+      "id": 5
+    }
+  ]
+}
